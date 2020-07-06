@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 function RouteConfig() {
   return (
-    <div className="App">
+    <div className="">
       <Router>
         <Navbar />
         <Switch>

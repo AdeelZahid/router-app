@@ -1,0 +1,16 @@
+.header{
+    width: 400px;
+    margin: auto;
+}
+.linkItem {
+    display: inline-flex;
+    width: 100px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.linkItem:hover{
+    color: rgb(173, 80, 80);
+}

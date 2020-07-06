@@ -1,0 +1,41 @@
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+
+.container h1{
+    width: 100%;
+    text-align: center;
+    height: 305x;
+}
+
+.productContainer{
+    text-align: center;
+    width: 300px;
+    min-height: 200px;
+    overflow: hidden;
+    box-shadow: 10px 5px 4px 5px #888888;
+    margin: 20px 20px;
+}
+.productContainer:hover{
+    box-shadow: 10px 10px 8px 10px #888888;
+    color: white;
+}
+
+.productContainer img{
+    height:200px;
+    width: 100%;
+}
+
+.productContainer img:hover{
+    height:200px;
+    width: 105%;
+    transition: 500ms;
+    overflow: hidden;
+    
+}
+
+.productContainer h3{
+    color: green;
+}
