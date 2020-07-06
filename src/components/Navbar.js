@@ -7,7 +7,7 @@ function Navbar() {
         <div className="header">
             <Link to="/" className="linkItem">Home</Link>
             <Link to="/about"  className="linkItem">About</Link>
-            <Link to="product"  className="linkItem">Products</Link>
+            <Link to="/products"  className="linkItem">Products</Link>
         </div>
   );
 }

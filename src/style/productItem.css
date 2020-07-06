@@ -1,0 +1,13 @@
+.singleItem{
+    text-align: center;
+}
+.singleItem img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.notFoundItem{
+    color: red;
+    text-align: center;
+    margin-top: 200px;
+}
